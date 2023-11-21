@@ -47,7 +47,7 @@ Apply decision tree model to identify heart disease
 (6) Pruning parameter - alpha <br />
 (7) Data Visualization and interpretation for Decision Trees <br />
 
-# Identifying and dealing with missing/weird data
+### Identifying and dealing with missing/weird data
 numbers/?
 - Remove the record
 - impute the number with min, max or mean
