@@ -43,7 +43,7 @@ Apply decision tree model to identify heart disease
 (2) Exploratory Data Analysis <br />
 (3) Identifying and dealing with missing value <br />
 (4) Data Preprocessing <br />
-(5）Understand and build a decision tree model <br />
+(5) Understand and build a decision tree model <br />
 (6) Pruning parameter - alpha <br />
 (7) Data Visualization and interpretation for Decision Trees <br />
 
