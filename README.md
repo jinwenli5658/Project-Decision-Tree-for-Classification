@@ -1,6 +1,7 @@
 # Project: Decision Tree for Classification
 
 # Problem
+Apply decision tree model to identify heart disease
 
 # Data Columns
 Replace the column numbers with the following column names:
@@ -17,7 +18,7 @@ Replace the column numbers with the following column names:
 - **slope**, the slope of the peak exercise ST segment.
 - **ca**, number of major vessels (0-3) colored by fluoroscopy
 - **thal**, this is short of thalium heart scan.
-- **hd**, diagnosis of heart disease, the predicted attribute
+- **hd**, diagnosis of type of heart disease, the predicted attribute
 
 - - **age**, **Float**
 - **sex** - **Category**
@@ -51,6 +52,16 @@ Replace the column numbers with the following column names:
   - 3 = normal (no cold spots)
   - 6 = fixed defect (cold spots during rest and exercise)
   - 7 = reversible defect (when cold spots only appear during exercise)
+ 
+
+  # Tasks
+  (1) Import libraries and load data
+  (2) Exploratory Data Analysis
+  (3) Identifying and dealing with missing value
+  (4) Data Preprocessing
+  (5）Understand and build a decision tree model
+  (6) Pruning parameter - alpha
+  (7) Data Visualization and interpretation for Decision Trees
 
 # Identifying and dealing with missing data
 numbers
