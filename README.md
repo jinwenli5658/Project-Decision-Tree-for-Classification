@@ -4,23 +4,7 @@
 Apply decision tree model to identify heart disease
 
 # Data Columns
-Replace the column numbers with the following column names:
-- **age**,
-- **sex**,
-- **cp**, chest pain
-- **restbp**, resting blood pressure (in mm Hg)
-- **chol**, serum cholesterol in mg/dl
-- **fbs**, fasting blood sugar
-- **restecg**, resting electrocardiographic results
-- **thalach**,  maximum heart rate achieved
-- **exang**, exercise induced angina
-- **oldpeak**, ST depression induced by exercise relative to rest
-- **slope**, the slope of the peak exercise ST segment.
-- **ca**, number of major vessels (0-3) colored by fluoroscopy
-- **thal**, this is short of thalium heart scan.
-- **hd**, diagnosis of type of heart disease, the predicted attribute
-
-- - **age**, **Float**
+- **age**, **Float**
 - **sex** - **Category**
   - 0 = female
   - 1 = male
@@ -52,21 +36,19 @@ Replace the column numbers with the following column names:
   - 3 = normal (no cold spots)
   - 6 = fixed defect (cold spots during rest and exercise)
   - 7 = reversible defect (when cold spots only appear during exercise)
+- **hd**, diagnosis of type of heart disease, the predicted attribute
  
+ # Tasks
+(1) Import libraries and load data <br />
+(2) Exploratory Data Analysis <br />
+(3) Identifying and dealing with missing value <br />
+(4) Data Preprocessing <br />
+(5）Understand and build a decision tree model <br />
+(6) Pruning parameter - alpha <br />
+(7) Data Visualization and interpretation for Decision Trees <br />
 
-  # Tasks
-  (1) Import libraries and load data
-  (2) Exploratory Data Analysis
-  (3) Identifying and dealing with missing value
-  (4) Data Preprocessing
-  (5）Understand and build a decision tree model
-  (6) Pruning parameter - alpha
-  (7) Data Visualization and interpretation for Decision Trees
-
-# Identifying and dealing with missing data
-numbers
+# Identifying and dealing with missing/weird data
+numbers/?
 - Remove the record
 - impute the number with min, max or mean
 
-labels:
-- funny data
